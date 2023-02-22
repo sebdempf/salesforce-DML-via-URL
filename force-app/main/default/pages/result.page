@@ -1,0 +1,30 @@
+<apex:page label="ClickHandlerResult"
+  name="ClickHandlerResult"
+  sidebar="false"
+  showHeader="false"
+  standardStylesheets="true"
+  showChat="false"
+  showQuickActionVfHeader="false"
+>
+  <body>
+    <div>
+      <p>
+        <span id="testContactUpdate"></span>
+      </p>
+    </div>
+
+    <script>
+      let url = new URL(window.location.href);
+      let params = url.searchParams;
+      let path = params.get("path");
+
+      if (path == "testContactUpdate") {
+        let lastName = params.get("lastName");
+        let id = params.get("id");
+        console.log(`name: ${lastName}; id: ${id}`);
+        document.getElementById("testContactUpdate").innerHTML =
+          "Set last name of Contact " + id + " to " + lastName;
+      }
+    </script>
+  </body>
+</apex:page>

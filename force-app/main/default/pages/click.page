@@ -1,0 +1,11 @@
+<apex:page controller="ClickHandler"
+  showHeader="false"
+  sidebar="true"
+  action="{!evaluate}"
+>
+  <body>
+    <div>
+      <p>Processing...</p>
+    </div>
+  </body>
+</apex:page>
