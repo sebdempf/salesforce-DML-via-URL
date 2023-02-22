@@ -16,7 +16,7 @@ In orgs managing vast numbers of stakeholders, keeping records up to date can be
 Stakeholders are sent URLs to a force.com site containing parameters relating to their records (e.g. Contact ID). When visited, the site is configured to call a method on an Apex class set to do the following:
 
 - Read in the URL parameters (e.g. Contact ID)
-- Take specific action based on their content (e.g. opt into newsletter sign up)
+- Take specific actions based on their content (e.g. opt into newsletter sign up)
 - Redirect the user to another page
 
 ## Setup
