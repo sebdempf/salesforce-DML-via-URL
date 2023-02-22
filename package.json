@@ -1,8 +1,8 @@
 {
-  "name": "salesforce-app",
+  "name": "salesforce-dml-via-url",
   "private": true,
   "version": "1.0.0",
-  "description": "Salesforce App",
+  "description": "Allows org-external stakeholders to perform specific DML operations by calling specific URLs",
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**",
     "test": "npm run test:unit",
