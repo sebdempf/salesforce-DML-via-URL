@@ -9,7 +9,8 @@ In orgs managing vast numbers of stakeholders, keeping records up to date can be
 - Confirming email addresses
 - Tracking meeting attendance
 - Progressing to the next stage of an engagement journey
-  Generally, however, all DML operations that are the result of a Yes/No question may qualify.
+
+Generally, however, all DML operations that are the result of a Yes/No question may qualify.
 
 ## How
 
