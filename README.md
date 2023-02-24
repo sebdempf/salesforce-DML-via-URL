@@ -1,6 +1,6 @@
 # Salesforce DML via URL
 
-This package allows org-external stakeholders to perform specific DML operations by following URL unique to their records
+This package allows org-external stakeholders to perform specific DML operations by following URL unique to their records.
 
 ## Why
 

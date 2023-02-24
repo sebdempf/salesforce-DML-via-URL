@@ -8,10 +8,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
         <members>click</members>
         <members>result</members>
         <name>ApexPage</name>
